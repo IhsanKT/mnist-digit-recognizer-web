@@ -12,3 +12,8 @@ build/
 
 # OS
 .DS_Store
+
+
+# Training data (do not deploy)
+data/
+
