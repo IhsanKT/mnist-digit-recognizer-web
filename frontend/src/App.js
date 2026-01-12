@@ -48,7 +48,7 @@ export default function App() {
         <div className="text-center min-h-[80px]">
           {loading && (
             <p className="text-yellow-400 animate-pulse">
-              Waking up model…
+              Predicting…
             </p>
           )}
 
