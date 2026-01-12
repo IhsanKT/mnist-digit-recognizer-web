@@ -11,7 +11,7 @@ app = FastAPI(title="MNIST Digit Predictor")
 # ---------- CORS ----------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://mnist-classifier.netlify.app/"],  # later restrict to Netlify domain
+    allow_origins=["https://mnist-classifier.netlify.app"],  # later restrict to Netlify domain
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
